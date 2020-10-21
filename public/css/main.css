@@ -1,3 +1,100 @@
+body,
+html {
+    height: 100%;
+    background-image: url("../images/wp.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fimage {
+    height: 100%;
+    background-image: url("../images/wp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Style the navbar */
+
+#navbar {
+    overflow: hidden;
+    background-color: rgba(29, 24, 24, 0.795);
+}
+
+
+/* Navbar links */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    outline-color: white;
+    outline-style: solid;
+    width: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#navbar a:hover {
+    background-color: rgba(185, 35, 29, 0.945);
+}
+
+.a1 {
+    position: sticky;
+    top: 50%;
+    left: 25%;
+}
+
+.a2 {
+    position: sticky;
+    top: 50%;
+    left: 45%;
+}
+
+.a3 {
+    position: sticky;
+    top: 50%;
+    left: 65%;
+}
+
+
+/* Page content */
+
+.content {
+    padding: 16px;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
 #tab1 .sch-product-grid {}
 
 #tab1 .sch-product-grid .sch-product-item {
@@ -50,7 +147,7 @@
     display: block;
 }
 
-#tab1 .sch-product-grid .sch-social .link {
+s #tab1 .sch-product-grid .sch-social .link {
     display: inline-block;
     vertical-align: middle;
     position: relative;
