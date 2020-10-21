@@ -8,6 +8,17 @@ html {
     background-size: cover;
 }
 
+.footer {
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(4, 4, 3, 0.795);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .fimage {
     height: 100%;
     background-image: url("../images/wp.png");
@@ -27,7 +38,7 @@ html {
 
 #navbar {
     overflow: hidden;
-    background-color: rgba(29, 24, 24, 0.795);
+    background-color: rgba(4, 4, 3, 0.795);
 }
 
 
@@ -38,6 +49,7 @@ html {
     display: block;
     color: #f2f2f2;
     text-align: center;
+    font-weight: bold;
     padding: 14px;
     text-decoration: none;
     outline-color: white;
@@ -50,7 +62,8 @@ html {
 }
 
 #navbar a:hover {
-    background-color: rgba(185, 35, 29, 0.945);
+    background-color: #d7a801;
+    outline-color: #d7a801;
 }
 
 .a1 {
@@ -186,7 +199,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab1 .sch-product-grid .sch-social .link.heart {
-    background-color: #c60021;
+    background-color: #d7a801;
     color: white;
 }
 
@@ -206,7 +219,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 #tab1 .sch-product-grid .fa.fa-shopping-bag {
     position: absolute;
     color: #fff;
-    background: #c60021;
+    background: #d7a801;
     padding: 10px;
     border-radius: 5px;
     top: 30px;
@@ -243,11 +256,11 @@ s #tab1 .sch-product-grid .sch-social .link {
     width: 50%;
     float: left;
     text-align: center;
-    color: #c60021;
+    color: #d7a801;
 }
 
 #tab1 .sch-product-grid .sch-star {
-    color: #c60021;
+    color: #d7a801;
     font-size: 12px;
     margin: 0;
     list-style: none;
@@ -262,7 +275,6 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab1 .sch-product-grid .sch-star i {
-    border: 1px solid #ddd;
     font-size: 14px;
 }
 
@@ -279,7 +291,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab1 .sch-product-grid .sch-price-new {
-    color: #c60021;
+    color: #d7a801;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -310,12 +322,12 @@ s #tab1 .sch-product-grid .sch-social .link {
     left: -5px;
     top: 15px;
     width: 120px;
-    background-color: #f84040;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f84040), to(#bf0d0d));
-    background-image: -webkit-linear-gradient(#f84040);
-    background-image: -moz-linear-gradient(top, #f84040, #bf0d0d);
-    background-image: -ms-linear-gradient(top, #f84040, #bf0d0d);
-    background-image: -o-linear-gradient(top, #f84040, #bf0d0d);
+    background-color: #d7a801;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d7a801), to(#fbd343));
+    background-image: -webkit-linear-gradient(#d7a801);
+    background-image: -moz-linear-gradient(top, #d7a801, #fbd343);
+    background-image: -ms-linear-gradient(top, #d7a801, #fbd343);
+    background-image: -o-linear-gradient(top, #d7a801, #fbd343);
     color: #fff;
     -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
@@ -568,7 +580,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab2 .sch-product-list .sch-social .link.heart {
-    background-color: #c60021;
+    background-color: #d7a801;
     color: white;
 }
 
@@ -588,7 +600,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 #tab2 .sch-product-list .fa.fa-shopping-bag {
     position: absolute;
     color: #fff;
-    background: #c60021;
+    background: #d7a801;
     padding: 10px;
     border-radius: 5px;
     top: 30px;
@@ -634,11 +646,11 @@ s #tab1 .sch-product-grid .sch-social .link {
     width: 50%;
     float: left;
     text-align: center;
-    color: #c60021;
+    color: #d7a801;
 }
 
 #tab2 .sch-product-list .sch-star {
-    color: #c60021;
+    color: #d7a801;
     font-size: 12px;
     margin: 10px 0;
     list-style: none;
@@ -652,7 +664,6 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab2 .sch-product-list .sch-star i {
-    border: 1px solid #ddd;
     font-size: 14px;
 }
 
@@ -661,7 +672,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab2 .sch-product-list .sch-price-new {
-    color: #c60021;
+    color: #d7a801;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -671,7 +682,7 @@ s #tab1 .sch-product-grid .sch-social .link {
 }
 
 #tab2 .sch-product-list .sch-price-new {
-    color: #c60021;
+    color: #d7a801;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -702,12 +713,12 @@ s #tab1 .sch-product-grid .sch-social .link {
     left: -5px;
     top: 15px;
     width: 120px;
-    background-color: #f84040;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f84040), to(#bf0d0d));
-    background-image: -webkit-linear-gradient(#f84040);
-    background-image: -moz-linear-gradient(top, #f84040, #bf0d0d);
-    background-image: -ms-linear-gradient(top, #f84040, #bf0d0d);
-    background-image: -o-linear-gradient(top, #f84040, #bf0d0d);
+    background-color: #d7a801;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d7a801), to(#fbd343));
+    background-image: -webkit-linear-gradient(#d7a801);
+    background-image: -moz-linear-gradient(top, #d7a801, #fbd343);
+    background-image: -ms-linear-gradient(top, #d7a801, #fbd343);
+    background-image: -o-linear-gradient(top, #d7a801, #fbd343);
     color: #fff;
     -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
@@ -892,7 +903,7 @@ input[type=number] {
 #tab2 .sch-product-list .sch-size-item-element.active,
 #tab2 .sch-product-list .sch-color-item-element.sch-color-item-element:hover,
 #tab2 .sch-product-list .sch-size-item-element:hover {
-    border: 2px solid #c60021 !important;
+    border: 2px solid #d7a801 !important;
 }
 
 #tab2 .sch-product-list .sch-color-item-element:last-child,
@@ -901,7 +912,7 @@ input[type=number] {
 }
 
 #tab2 .sch-product-list .sch-color-item-white {
-    background: #fff;
+    background: rgba(165, 11, 11, 0.89);
 }
 
 #tab2 .sch-product-list .sch-color-item-black {
@@ -909,11 +920,11 @@ input[type=number] {
 }
 
 #tab2 .sch-product-list .sch-color-item-brown {
-    background: brown;
+    background: rgb(21, 77, 150);
 }
 
 #tab2 .sch-product-list .sch-color-item-red {
-    background: red;
+    background: rgb(223, 194, 34);
 }
 
 #tab2 .sch-product-list .sch-size-item-element {
